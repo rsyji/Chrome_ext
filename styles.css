@@ -12,16 +12,30 @@ input{
     border: 1px solid #5f9341;
 }
 
+.buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 4px 0;
+}
+
+
 button{
 
     color: white;
     background-color: #5f9341;
     border: none;
     padding: 10px;
-    width: 48%;
-    margin: 4px;
+    width: 30%;
+    /* margin: 4px; */
     font-weight: bold;
     float: left;
+}
+
+#delete-data{
+    background-color: white;
+    color: #5f9341;
+    border: 1px solid #5f9341;
 }
 
 ul{
